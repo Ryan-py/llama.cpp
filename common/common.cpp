@@ -1284,7 +1284,7 @@ struct llama_context_params llama_context_params_from_gpt_params(const gpt_param
     cparams.mul_mat_q         = params.mul_mat_q;
     cparams.seed              = params.seed;
     cparams.logits_all        = params.logits_all;
-    cparams.embedding         = params.embedding;
+    cparams.embeddings        = params.embedding;
     cparams.rope_scaling_type = params.rope_scaling_type;
     cparams.rope_freq_base    = params.rope_freq_base;
     cparams.rope_freq_scale   = params.rope_freq_scale;
